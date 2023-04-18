@@ -16,12 +16,12 @@
   "contributes": {
     "themes": [
       {
-        "label": "nabhi dark",
+        "label": "Nabhi Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/color-theme-dark.json"
       },
       {
-        "label": "nabhi light",
+        "label": "Nabhi Light",
         "uiTheme": "vs",
         "path": "./themes/color-theme-light.json"
       }
@@ -29,14 +29,14 @@
     "productIconThemes": [
       {
         "id": "nabhi-product-icons",
-        "label": "nabhi product icons",
+        "label": "Nabhi Product Icons",
         "path": "./themes/product-icon-theme.json"
       }
     ],
     "iconThemes": [
       {
         "id": "nabhi-file-icons",
-        "label": "nabhi file icons",
+        "label": "Nabhi File Icons",
         "path": "./themes/icon-theme.json"
       }
     ]
