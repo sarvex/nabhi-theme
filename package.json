@@ -1,0 +1,51 @@
+{
+  "name": "nabhi-theme",
+  "displayName": "Nabhi Theme",
+  "description": "Theme for VS Code",
+  "version": "0.0.1",
+  "repository": "https://gitlab.com/sarvex/nabhi-theme",
+  "license": "UNLICENSE",
+  "publisher": "sarvex",
+  "icon": "assets/icon.png",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "nabhi dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/color-theme-dark.json"
+      },
+      {
+        "label": "nabhi light",
+        "uiTheme": "vs",
+        "path": "./themes/color-theme-light.json"
+      }
+    ],
+    "productIconThemes": [
+      {
+        "id": "nabhi-product-icons",
+        "label": "nabhi product icons",
+        "path": "./themes/product-icon-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "nabhi-file-icons",
+        "label": "nabhi file icons",
+        "path": "./themes/icon-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "vsce package",
+    "deploy": "vsce publish --pat $PAT"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.19.0"
+  }
+}

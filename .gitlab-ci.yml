@@ -1,0 +1,22 @@
+image: node:18
+
+cache:
+  key: $CI_COMMIT_REF_SLUG
+  paths:
+    - node_modules/
+
+before_script:
+  - node --version
+  - npm --version
+  - npm install
+
+build:
+  stage: build
+  script:
+    - npm run build
+
+deploy:
+  stage: deploy
+  script:
+    - npm run deploy
+  when: manual
