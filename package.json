@@ -46,6 +46,6 @@
     "deploy": "vsce publish --pat $PAT"
   },
   "devDependencies": {
-    "@vscode/vsce": "^2.19.0"
+    "@vscode/vsce": "^3.0.0"
   }
 }
