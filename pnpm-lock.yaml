@@ -6,7 +6,7 @@ settings:
 
 devDependencies:
   '@vscode/vsce':
-    specifier: ^2.32.0
+    specifier: ^2.19.0
     version: 2.32.0
 
 packages:
@@ -1310,6 +1310,7 @@ packages:
   /whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
     dependencies:
       iconv-lite: 0.6.3
     dev: true
